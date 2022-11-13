@@ -30,7 +30,7 @@
 
 //#region Configs
 const _ballInvMass = 11.2; const _maxSpd = 3.6; const _maxPwr = 3; const _playerR = 30;
-const _map = `{"name":"Ping Padel 2","width":480,"height":600,"cameraWidth":0,"cameraHeight":0,"maxViewWidth":0,"cameraFollow":"player","spawnDistance":280,"redSpawnPoints":[[-300,555],[-300,-145]],"blueSpawnPoints":[[300,555],[300,-145]],"canBeStored":false,"kickOffReset":"partial","bg":{"color":"333333"},"traits":{},"vertexes":[{"x":0,"y":-600},{"x":0,"y":600},{"x":-400,"y":-100},{"x":400,"y":-100},{"x":-400,"y":100},{"x":400,"y":100},{"x":-400,"y":-600},{"x":-400,"y":600},{"x":400,"y":-600},{"x":400,"y":600},{"x":-250,"y":495,"cMask":["ball"]},{"x":250,"y":495,"cMask":["ball"]},{"x":-250,"y":497,"cMask":["ball"]},{"x":250,"y":497,"cMask":["ball"]},{"x":-250,"y":499,"cMask":["ball"]},{"x":250,"y":499,"cMask":["ball"]},{"x":-250,"y":501,"cMask":["ball"]},{"x":250,"y":501,"cMask":["ball"]},{"x":-250,"y":503,"cMask":["ball"]},{"x":250,"y":503,"cMask":["ball"]},{"x":-8,"y":471,"cMask":["ball"]},{"x":8,"y":471,"cMask":["ball"]},{"x":-8,"y":505,"cMask":["ball"]},{"x":8,"y":505,"cMask":["ball"]},{"x":-250,"y":-205,"cMask":["ball"]},{"x":250,"y":-205,"cMask":["ball"]},{"x":-250,"y":-203,"cMask":["ball"]},{"x":250,"y":-203,"cMask":["ball"]},{"x":-250,"y":-201,"cMask":["ball"]},{"x":250,"y":-201,"cMask":["ball"]},{"x":-250,"y":-199,"cMask":["ball"]},{"x":250,"y":-199,"cMask":["ball"]},{"x":-250,"y":-197,"cMask":["ball"]},{"x":250,"y":-197,"cMask":["ball"]},{"x":-8,"y":-229,"cMask":["ball"]},{"x":8,"y":-229,"cMask":["ball"]},{"x":-8,"y":-195,"cMask":["ball"]},{"x":8,"y":-195,"cMask":["ball"]},{"x":-880,"y":0,"_data":{"mirror":{}},"_selected":"segment"},{"x":880,"y":0,"_data":{"mirror":{}},"_selected":"segment"}],"segments":[{"v0":0,"v1":1,"vis":false,"cMask":["red","blue"]},{"v0":2,"v1":3,"color":"EEEEEE","cMask":["red","blue","ball"],"bias":20},{"v0":4,"v1":5,"color":"EEEEEE","cMask":["red","blue","ball"],"bias":-20},{"v0":6,"v1":7,"color":"EEEEEE","cMask":["c3"]},{"v0":8,"v1":9,"color":"EEEEEE","cMask":["c3"]},{"v0":18,"v1":19,"color":"2EA0E4","cMask":["ball"]},{"v0":16,"v1":17,"color":"2EA0E4","cMask":["ball"]},{"v0":14,"v1":15,"color":"2EA0E4","cMask":["ball"]},{"v0":12,"v1":13,"color":"2EA0E4","cMask":["ball"]},{"v0":10,"v1":11,"color":"EEEEEE","cMask":["ball"],"bias":10},{"v0":20,"v1":22,"bCoef":0.2,"cMask":["ball"],"bias":-8},{"v0":21,"v1":23,"bCoef":0.2,"cMask":["ball"],"bias":8},{"v0":32,"v1":33,"color":"2EA0E4","cMask":["ball"]},{"v0":30,"v1":31,"color":"2EA0E4","cMask":["ball"]},{"v0":28,"v1":29,"color":"2EA0E4","cMask":["ball"]},{"v0":26,"v1":27,"color":"2EA0E4","cMask":["ball"]},{"v0":24,"v1":25,"color":"EEEEEE","cMask":["ball"],"bias":10},{"v0":34,"v1":36,"bCoef":0.2,"cMask":["ball"],"bias":-8},{"v0":35,"v1":37,"bCoef":0.2,"cMask":["ball"],"bias":8},{"v0":38,"v1":39,"color":"EEEEEE","cMask":["red","blue","ball"],"_data":{"mirror":{},"arc":{"a":[-880,0],"b":[880,0],"radius":null,"center":[null,null],"from":null,"to":null}},"_selected":true}],"goals":[],"discs":[{"radius":6,"invMass":11.2,"pos":[-300,414],"color":"ffb433","bCoef":0.84,"cMask":["all"],"cGroup":["ball","kick"],"damping":0.985,"gravity":[0,0.22]},{"radius":0,"invMass":0,"pos":[-300,421],"bCoef":0,"cMask":["ball"]},{"radius":7,"invMass":0,"pos":[0,471],"color":"000000","bCoef":0.2,"cMask":["ball","red","blue"]},{"radius":8,"invMass":0,"pos":[-20,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-40,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-60,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-80,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-100,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-120,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-140,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-160,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-180,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-200,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[20,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[40,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[60,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[80,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[100,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[120,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[140,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[160,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[180,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[200,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[0,590],"color":"3333ff","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[0,590],"color":"3333ff","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[0,590],"color":"ffffff","cMask":["c3"],"damping":0},{"radius":28,"invMass":0,"pos":[0,550],"color":"333333","cMask":["c3"],"damping":0},{"radius":6,"invMass":11.2,"pos":[-300,-286],"color":"ffb433","bCoef":0.84,"cMask":["all"],"cGroup":["ball","kick"],"damping":0.985,"gravity":[0,0.22]},{"radius":0,"invMass":0,"pos":[-300,-279],"bCoef":0,"cMask":["ball"]},{"radius":7,"invMass":0,"pos":[0,-229],"color":"000000","bCoef":0.2,"cMask":["ball","red","blue"]},{"radius":8,"invMass":0,"pos":[-20,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-40,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-60,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-80,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-100,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-120,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-140,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-160,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-180,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-200,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[20,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[40,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[60,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[80,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[100,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[120,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[140,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[160,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[180,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[200,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[0,-110],"color":"3333ff","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[0,-110],"color":"3333ff","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[0,-110],"color":"ffffff","cMask":["c3"],"damping":0},{"radius":28,"invMass":0,"pos":[0,-150],"color":"333333","cMask":["c3"],"damping":0}],"planes":[{"normal":[0,-1],"dist":-600,"cMask":["ball","red","blue"],"_data":{"extremes":{"normal":[0,-1],"dist":-600,"canvas_rect":[-880,-600,880,600],"a":[-880,600],"b":[880,600]}}},{"normal":[0,1],"dist":-600,"cMask":["ball","red","blue"],"_data":{"extremes":{"normal":[0,1],"dist":-600,"canvas_rect":[-880,-600,880,600],"a":[-880,-600],"b":[880,-600]}}},{"normal":[-1,0],"dist":-400,"bCoef":1,"cMask":["ball"],"_data":{"extremes":{"normal":[-1,0],"dist":-400,"canvas_rect":[-880,-600,880,600],"a":[400,-600],"b":[400,600]}}},{"normal":[1,0],"dist":-400,"bCoef":1,"cMask":["ball"],"_data":{"extremes":{"normal":[1,0],"dist":-400,"canvas_rect":[-880,-600,880,600],"a":[-400,-600],"b":[-400,600]}}}],"joints":[],"playerPhysics":{"radius":30,"bCoef":0.1,"kickingAcceleration":0.4,"acceleration":0.3,"damping":0.9,"kickStrength":1.1,"invMass":0.001,"kickingDamping":0.9},"ballPhysics":"disc0"}`
+const _map = `{"name":"Ping Padel 2.1","width":480,"height":600,"cameraWidth":0,"cameraHeight":0,"maxViewWidth":0,"cameraFollow":"player","spawnDistance":280,"redSpawnPoints":[[-300,555],[-300,-145]],"blueSpawnPoints":[[300,555],[300,-145]],"canBeStored":false,"kickOffReset":"partial","bg":{"color":"333333"},"traits":{},"vertexes":[{"x":0,"y":-600},{"x":0,"y":600},{"x":-400,"y":-100},{"x":400,"y":-100},{"x":-400,"y":100},{"x":400,"y":100},{"x":-400,"y":-600},{"x":-400,"y":600},{"x":400,"y":-600},{"x":400,"y":600},{"x":-250,"y":495,"cMask":["ball"]},{"x":250,"y":495,"cMask":["ball"]},{"x":-250,"y":497,"cMask":["ball"]},{"x":250,"y":497,"cMask":["ball"]},{"x":-250,"y":499,"cMask":["ball"]},{"x":250,"y":499,"cMask":["ball"]},{"x":-250,"y":501,"cMask":["ball"]},{"x":250,"y":501,"cMask":["ball"]},{"x":-250,"y":503,"cMask":["ball"]},{"x":250,"y":503,"cMask":["ball"]},{"x":-8,"y":471,"cMask":["ball"]},{"x":8,"y":471,"cMask":["ball"]},{"x":-8,"y":505,"cMask":["ball"]},{"x":8,"y":505,"cMask":["ball"]},{"x":-250,"y":-205,"cMask":["ball"]},{"x":250,"y":-205,"cMask":["ball"]},{"x":-250,"y":-203,"cMask":["ball"]},{"x":250,"y":-203,"cMask":["ball"]},{"x":-250,"y":-201,"cMask":["ball"]},{"x":250,"y":-201,"cMask":["ball"]},{"x":-250,"y":-199,"cMask":["ball"]},{"x":250,"y":-199,"cMask":["ball"]},{"x":-250,"y":-197,"cMask":["ball"]},{"x":250,"y":-197,"cMask":["ball"]},{"x":-8,"y":-229,"cMask":["ball"]},{"x":8,"y":-229,"cMask":["ball"]},{"x":-8,"y":-195,"cMask":["ball"]},{"x":8,"y":-195,"cMask":["ball"]},{"x":-880,"y":0,"_data":{"mirror":{}},"_selected":"segment"},{"x":880,"y":0,"_data":{"mirror":{}},"_selected":"segment"}],"segments":[{"v0":0,"v1":1,"vis":false,"cMask":["red","blue"]},{"v0":2,"v1":3,"color":"EEEEEE","cMask":["red","blue","ball"],"bias":20},{"v0":4,"v1":5,"color":"EEEEEE","cMask":["red","blue","ball"],"bias":-20},{"v0":6,"v1":7,"color":"EEEEEE","cMask":["c3"]},{"v0":8,"v1":9,"color":"EEEEEE","cMask":["c3"]},{"v0":18,"v1":19,"color":"2EA0E4","cMask":["ball"]},{"v0":16,"v1":17,"color":"2EA0E4","cMask":["ball"]},{"v0":14,"v1":15,"color":"2EA0E4","cMask":["ball"]},{"v0":12,"v1":13,"color":"2EA0E4","cMask":["ball"]},{"v0":10,"v1":11,"color":"EEEEEE","cMask":["ball"],"bias":10},{"v0":20,"v1":22,"bCoef":0.2,"cMask":["ball"],"bias":-8},{"v0":21,"v1":23,"bCoef":0.2,"cMask":["ball"],"bias":8},{"v0":32,"v1":33,"color":"2EA0E4","cMask":["ball"]},{"v0":30,"v1":31,"color":"2EA0E4","cMask":["ball"]},{"v0":28,"v1":29,"color":"2EA0E4","cMask":["ball"]},{"v0":26,"v1":27,"color":"2EA0E4","cMask":["ball"]},{"v0":24,"v1":25,"color":"EEEEEE","cMask":["ball"],"bias":10},{"v0":34,"v1":36,"bCoef":0.2,"cMask":["ball"],"bias":-8},{"v0":35,"v1":37,"bCoef":0.2,"cMask":["ball"],"bias":8},{"v0":38,"v1":39,"color":"EEEEEE","cMask":["red","blue","ball"],"_data":{"mirror":{},"arc":{"a":[-880,0],"b":[880,0],"radius":null,"center":[null,null],"from":null,"to":null}},"_selected":true}],"goals":[],"discs":[{"radius":6,"invMass":11.2,"pos":[-300,414],"color":"ffb433","bCoef":0.84,"cMask":["all"],"cGroup":["ball","kick"],"damping":0.985,"gravity":[0,0.22]},{"radius":0,"invMass":0,"pos":[-300,421],"bCoef":0,"cMask":["ball"]},{"radius":7,"invMass":0,"pos":[0,471],"color":"000000","bCoef":0.2,"cMask":["ball","red","blue"]},{"radius":8,"invMass":0,"pos":[-20,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-40,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-60,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-80,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-100,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-120,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-140,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-160,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-180,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-200,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[20,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[40,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[60,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[80,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[100,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[120,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[140,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[160,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[180,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[200,590],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[0,590],"color":"3333ff","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[0,590],"color":"3333ff","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[0,590],"color":"ffffff","cMask":["c3"],"damping":0},{"radius":28,"invMass":0,"pos":[0,550],"color":"333333","cMask":["c3"],"damping":0},{"radius":6,"invMass":11.2,"pos":[-300,-286],"color":"ffb433","bCoef":0.84,"cMask":["all"],"cGroup":["ball","kick"],"damping":0.985,"gravity":[0,0.22]},{"radius":0,"invMass":0,"pos":[-300,-279],"bCoef":0,"cMask":["ball"]},{"radius":7,"invMass":0,"pos":[0,-229],"color":"000000","bCoef":0.2,"cMask":["ball","red","blue"]},{"radius":8,"invMass":0,"pos":[-20,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-40,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-60,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-80,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-100,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-120,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-140,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-160,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-180,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[-200,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[20,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[40,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[60,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[80,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[100,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[120,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[140,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[160,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[180,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[200,-110],"color":"333333","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[0,-110],"color":"3333ff","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[0,-110],"color":"3333ff","cMask":["c3"],"damping":0},{"radius":8,"invMass":0,"pos":[0,-110],"color":"ffffff","cMask":["c3"],"damping":0},{"radius":28,"invMass":0,"pos":[0,-150],"color":"333333","cMask":["c3"],"damping":0}],"planes":[{"normal":[0,-1],"dist":-600,"cMask":["ball","red","blue"],"_data":{"extremes":{"normal":[0,-1],"dist":-600,"canvas_rect":[-880,-600,880,600],"a":[-880,600],"b":[880,600]}}},{"normal":[0,1],"dist":-600,"cMask":["ball","red","blue"],"_data":{"extremes":{"normal":[0,1],"dist":-600,"canvas_rect":[-880,-600,880,600],"a":[-880,-600],"b":[880,-600]}}},{"normal":[-1,0],"dist":-400,"bCoef":1,"cMask":["ball"],"_data":{"extremes":{"normal":[-1,0],"dist":-400,"canvas_rect":[-880,-600,880,600],"a":[400,-600],"b":[400,600]}}},{"normal":[1,0],"dist":-400,"bCoef":1,"cMask":["ball"],"_data":{"extremes":{"normal":[1,0],"dist":-400,"canvas_rect":[-880,-600,880,600],"a":[-400,-600],"b":[-400,600]}}}],"joints":[],"playerPhysics":{"radius":30,"bCoef":0.1,"kickingAcceleration":0.4,"acceleration":0.3,"damping":0.9,"kickStrength":1.1,"invMass":0.001,"kickingDamping":0.9},"ballPhysics":"disc0"}`
 const _gameI2DiscsI = [
     { ball:0, serve: 1, net:2, win:[23,24], point:26 },
     { ball:27, serve: 28, net:29, win:[50,51], point:53 }
@@ -121,7 +121,7 @@ class Player {
 
         //Others
         _ID2Player[ID] = this; _ID2Game[ID] = G;
-        room.sendAnnouncement(this.name + " is your turn", this.id, _Colors.pink, "normal", 2);
+        if (!_isPractice) room.sendAnnouncement(this.name + " is your turn", this.id, _Colors.pink, "normal", 2);
 
     }
 
@@ -204,10 +204,12 @@ class Player {
         if ( this.ballDist>this.g.triggerPlayerDist + 4 && this.touchingB ) this.endContactB();
 
         // Check AFK Time Limit
-        this.afkT++; 
-        if (this.afkT==_AfkWarning) whisper("Move or you will kick for afk!", this.id)
-        if (this.afkT>_AfkLimitT) room.kickPlayer(this.id, "Autokick: AFK");
-
+        if (!_isPractice)
+        {
+            this.afkT++; 
+            if (this.afkT==_AfkWarning) whisper("Move or you will kick for afk!", this.id)
+            if (this.afkT>_AfkLimitT) room.kickPlayer(this.id, "Autokick: AFK");
+        }
 
         // PowerShoot
         if (this.g.serve == this.i || this.g.bounce == this.i)
@@ -535,8 +537,6 @@ class GamePractice {
         this.score2win=_Score2win;
 
         // Do when create this
-        displayBattle( { id:this.PJS[0].id, name:this.PJS[0].name }, { name:this.PJS[1].name });
-
         room.setDiscProperties(this.discsI.win[0], {xspeed:0,yspeed:0,x:-20*this.score2win,y:this.middleY+175});
         room.setDiscProperties(this.discsI.win[1], {xspeed:0,yspeed:0,x:20*this.score2win,y:this.middleY+175});
 
@@ -657,17 +657,7 @@ class GamePractice {
 
         this.checkBallYBounce();
 
-        this.checkServeTimer()
-
         if (this.fault) this.faulted(this.fault)
-    }
-
-    checkServeTimer(){
-        if (this.serve!=-1 && this.bounce==-1)
-        {
-            this.serveT++; 
-            if (this.serveT>=_ServeLimitT) { this.fault = {p:this.PJS[this.serve], type:"Too much time doing serve"}; return; }
-        }
     }
 
     checkNetTouch(){
@@ -701,12 +691,12 @@ class GamePractice {
 
 function InitRoom(){
     room = HBInit({ 
-        roomName: "🏓 ᴾᶦⁿᵍ ᴾᵃᵈᵉˡ 🏓",  // ᴾᶦⁿᵍ ᴾᵃᵈᵉˡ ᴰᵉᶠᶦⁿᶦᵗᶦᵛᵉ ᴱᵈᶦᵗᶦᵒⁿ ᶜᵃˢᵘᵃˡ ᴿᵃⁿᵏᵉᵈ ᵀᵉˢᵗᶦⁿᵍ ᵛ²
+        roomName: "🏓 ᴾᶦⁿᵍ ᴾᵃᵈᵉˡ ᵛ²·¹ 🏓",  // ᴾᶦⁿᵍ ᴾᵃᵈᵉˡ ᴰᵉᶠᶦⁿᶦᵗᶦᵛᵉ ᴱᵈᶦᵗᶦᵒⁿ ᶜᵃˢᵘᵃˡ ᴿᵃⁿᵏᵉᵈ ᵀᵉˢᵗᶦⁿᵍ ᵛ²
         password: null, 
         maxPlayers: 8, 
         public: true,
         noPlayer: true, 
-        token: "thr1.AAAAAGNxLBj6pzYsblRRLw.f8VZt-hLoAk"
+        token: "thr1.AAAAAGNxYCA5sGWiLBF9Lw.-BABWHl5A-Q"
     });
                 
     room.setTeamsLock(true);
@@ -788,17 +778,23 @@ function PlayerJoin(player) {
         return; 
     }
 
+    if (player.auth === undefined) { room.kickPlayer(player.id, "Auth failed. Text me Sinny Deas#8626 (Discord)"); return; }
+	id2Auth[player.id] = player.auth;
+
 	whisper("👋 Welcome " + player.name + " ! Type '!help' to see the commands.", player.id)
 	whisper("⚠️ Remember that shoot will be stronger if you moving", player.id)
 
 	if (room.getPlayerList().length==1)
 	{
-		announce("Next match will start in 7 seconds");
-		sleep(5000).then(() => tryStartMatch());
-	}
-
-    if (player.auth === undefined) { room.kickPlayer(player.id, "Auth failed. Text me Sinny Deas#8626 (Discord)"); return; }
-	id2Auth[player.id] = player.auth;
+		announce("Need two players to start a match. Practice mode enable");
+		sleep(2000).then(() => tryStartMatch());
+	}else{
+        // End practice match
+        if (_Games[0] && _isPractice){
+            _Games[0].gameOver(); _Games[0] = undefined;
+            allGamesOver();
+        }
+    }
 
     DB_checkPlayerLogin(player);
 }
@@ -862,8 +858,8 @@ function GameStop(byPlayer)
         whisper(roomPList[3].name + " => Get ready, you play next", roomPList[3].id);
     }
 
-	announce("Next match will start in 15 seconds");
-	sleep(12000).then(() => tryStartMatch());
+	announce("Next match will start in 12 seconds");
+	sleep(10000).then(() => tryStartMatch());
 }
 
 function GamePause(byPlayer) {
@@ -890,10 +886,9 @@ function tryStartMatch()
 
 	if (roomPList.length==1) { 
         _playersIDs[0] = roomPList[0].id; room.setPlayerTeam(_playersIDs[0], 1);
-        announce("Practice Match"); 
         room.startGame();
         _isPractice = true;
-        return; 
+        return;
     }
 
     _playersIDs[0] = roomPList[0].id; room.setPlayerTeam(_playersIDs[0], 1); 
@@ -928,8 +923,6 @@ function StartMatch(){
 }
 
 function PracticeMatch(){
-	announce("Points to win: " + _Score2win + " <+2> ");
-	
 	_Games[0] = new GamePractice(0, _playersIDs[0]);
 	
 	room.pauseGame(true);
@@ -1005,7 +998,8 @@ function sleep (time) { return new Promise((resolve) => setTimeout(resolve, time
 
 //#region Displays
 async function displayBattle(p1,p2){
-    let elo1 = await DB_getElo(id2Auth[p1.id]); let elo2 = p2.id ? await DB_getElo(id2Auth[p2.id]) : "?¿";
+    let elo1 = Math.floor( await DB_getElo(id2Auth[p1.id]) ); 
+    let elo2 = p2.id ? Math.floor( await DB_getElo(id2Auth[p2.id]) ) : "?¿";
 
     announce(`[${elo1}] ${p1.name} 🆚 ${p2.name} [${elo2}]`)
 }
