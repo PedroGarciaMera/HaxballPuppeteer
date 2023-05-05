@@ -7,7 +7,10 @@ let RoomPath; let DBPath;
 
 // Init
 async function Init(){
-    const browser = await puppeteer.launch({args: ['--no-sandbox', '--disable-setuid-sandbox']});
+    const browser = await puppeteer.launch({
+	executablePath: '/usr/bin/chromium-browser',
+        args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-gpu']
+    });
     const page = await browser.newPage();
 
     let DB = require(DBPath); DB(page);
