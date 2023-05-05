@@ -696,7 +696,7 @@ function InitRoom(){
         maxPlayers: 8, 
         public: true,
         noPlayer: true, 
-        token: "thr1.AAAAAGNxYCA5sGWiLBF9Lw.-BABWHl5A-Q"
+        token: ""
     });
                 
     room.setTeamsLock(true);
